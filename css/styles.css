@@ -1,37 +1,109 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    list-style: none;
- }
- :root{
-    --Text-color: #1f3783;
-    --Pink-color: #e674c9;
-    --Blue-color: #81aee5;
-    --gradient:  linear-gradient(90deg, rgba(64,161,214,1) 20%, rgba(226,109,179,1) 89%);
-}
- body {
-     margin: 0px;
-     font-family: raleway ;
- }
- /*estilos del header*/
- .header{
-     background: var(--gradient);
- }
-/*estilos del inicio*/
-.inicio{
-    background:var(--gradient)
-}
-.tituloI{
-    font-weight: bold;
-    line-height: 80px;
-    font-size: 80px;
-    opacity: 50%;
-}
-.boton1{
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 50px;
-    transition: all 0.5s;
-}
+/*estilos generales*/
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+        list-style: none;
+    }
+    :root{
+        --Text-color: #1f3783;
+        --Pink-color: #e674c9;
+        --gradient:  linear-gradient(90deg, rgba(64,161,214,1) 20%, rgba(226,109,179,1) 89%);
+    }
+    body {
+        margin: 0px;
+        font-family: raleway ;
+    }
+    .tituloW{
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .tituloA{
+        font-weight: bold;
+        font-size: 45px;
+        color: var(--Text-color);
+    }
+    .textoA{
+        font-size: 20px;
+        color: var(--Text-color);
+        line-height: 25px;
+    }
+    .botonW{
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 50px;
+        transition: all 0.5s;
+    }
+    .BGgradient{
+        background: var(--gradient);
+    }
+    .BGpink{
+        background: var(--Pink-color);
+    }
+/*estilos del Inicio*/
+    .tituloH{
+        font-weight: bold;
+        line-height: 65px;
+        font-size: 70px;
+        opacity: 50%;
+    }
+/*estilos de "Aprende"*/
+    .iconos1{
+        justify-content: space-evenly;
+    }
+    .boton2{
+		font-size: 17px;
+		font-weight: bold;
+        background: var(--Text-color);
+        border: none;
+		border-radius: 50px;
+		transition: all 0.5s;
+    }
+/*estilos de "Quiénes somos?"*/
+    .container2{
+        display: flex;
+        align-items: center;
+    }
+/*estilos de parte "Hotmart"*/
+	.container3{
+		display: flex;
+		align-items: flex-end;
+	}
+	.textoH{
+		background: linear-gradient(0deg, rgba(129,174,229,1) 10%, rgba(118,166,230,1) 93%);
+		height: 295.2px;
+		padding: 0 60px;
+	}
+/*estilos de "Descubre"*/
+    .fundadoras{
+        justify-content: space-evenly;
+    }
+    .nombre{
+        margin: 12px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--Text-color);
+    }
+/*estilos de "Contáctenos"*/
+    .form{
+        width: 40%;
+    }
+    .boton4{
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		background: none;
+		border: white .7px solid;
+		border-radius: 50px;
+		transition: all 0.5s;
+	}
+/*estilos del Footer*/
+    footer{
+        background: var(--Text-color);
+        height: 60px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .logoF{
+        opacity: 0.8;
+    }
