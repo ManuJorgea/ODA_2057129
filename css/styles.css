@@ -41,39 +41,71 @@
         background: var(--Pink-color);
     }
 /*estilos del Inicio*/
-    .tituloH{
+.tituloH{
+    font-weight: bold;
+    line-height: 75px;
+    font-size: 80px;
+    opacity: 50%;
+   }
+@media (min-width: 771px) and (max-width: 1099px) {
+   .tituloH{
         font-weight: bold;
-        line-height: 65px;
-        font-size: 70px;
+        line-height: 50px;
+        font-size: 55px;
         opacity: 50%;
     }
+}
+@media (min-width: 300px) and (max-width: 770px) {
+    .tituloH{
+        font-weight: bold;
+        line-height: 40px;
+        font-size: 45px;
+        opacity: 50%;
+    }
+    .textoHome{
+        text-align: center;
+    }
+}
 /*estilos de "Aprende"*/
-    .iconos1{
-        justify-content: space-evenly;
-    }
-    .boton2{
-		font-size: 17px;
-		font-weight: bold;
-        background: var(--Text-color);
-        border: none;
-		border-radius: 50px;
-		transition: all 0.5s;
-    }
+.iconos1{
+    justify-content: space-evenly;
+}
+.boton2{
+	font-size: 17px;
+	font-weight: bold;
+    background: var(--Text-color);
+    border: none;
+	border-radius: 50px;
+	transition: all 0.5s;
+}
 /*estilos de "Quiénes somos?"*/
     .container2{
         display: flex;
         align-items: center;
+        text-align: right;
     }
-/*estilos de parte "Hotmart"*/
-	.container3{
-		display: flex;
-		align-items: flex-end;
-	}
-	.textoH{
-		background: linear-gradient(0deg, rgba(129,174,229,1) 10%, rgba(118,166,230,1) 93%);
-		height: 295.2px;
-		padding: 0 60px;
-	}
+    @media (min-width:  300px) and (max-width: 1099px){
+        .container2{
+            flex-flow: row wrap;
+            justify-content: center;
+            text-align: center;
+        }
+        .img-fluid2{
+            width:58,1%;
+            vertical-align: middle;
+        }
+        .photoQS{
+            width: 100%;
+        }
+        .textoQS{
+            margin: 5px 60px;
+        }
+    }
+    @media (min-width: 1100px){
+        .textoQS{
+            margin-right: 70px;
+        }
+    }
 /*estilos de "Descubre"*/
     .fundadoras{
         justify-content: space-evenly;
@@ -84,9 +116,40 @@
         font-weight: bold;
         color: var(--Text-color);
     }
+/*estilos de parte "Hotmart"*/
+	.container3{
+		display: flex;
+        align-items: flex-end;
+        text-align: left;
+	}
+    @media (min-width:  300px) and (max-width: 1099px){
+        .container3{
+            flex-flow: column-reverse;
+            text-align: center;
+        }
+        .textoH{
+            background: linear-gradient(0deg, rgba(129,174,229,1) 10%, rgba(118,166,230,1) 93%);
+            color: white;
+            display: space ;
+            text-align: center;
+            padding: 0px 60px 25px;
+            align-self: flex-end;
+        }
+        .photoH{
+            width: 100%;
+        }
+    }
+    @media (min-width: 1100px){
+        .textoH{
+            background: linear-gradient(0deg, rgba(129,174,229,1) 10%, rgba(118,166,230,1) 93%);
+            height: 295.2px;
+            padding: 0 60px;
+        }
+    }
 /*estilos de "Contáctenos"*/
     .form{
         width: 40%;
+        text-align: end;
     }
     .boton4{
 		font-size: 20px;
@@ -96,7 +159,13 @@
 		border: white .7px solid;
 		border-radius: 50px;
 		transition: all 0.5s;
-	}
+    }
+    @media (min-width: 300px) and (max-width: 799px) {
+        .form{
+            width: 90%;
+            text-align: center;
+        }
+    }
 /*estilos del Footer*/
     footer{
         background: var(--Text-color);
