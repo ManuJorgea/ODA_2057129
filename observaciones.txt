@@ -1,2 +1,5 @@
+<<<<<<< HEAD
   
+=======
+>>>>>>> c62949b5e85d16ef7a0db45d4b9a7e6bd39f15d9
 -Deben terminar el responsive
