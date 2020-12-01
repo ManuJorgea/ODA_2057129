@@ -115,7 +115,7 @@
         font-size: 20px;
         font-weight: bold;
         color: var(--Text-color);
-    }
+        }
 /*estilos de parte "Hotmart"*/
 	.container3{
 		display: flex;
